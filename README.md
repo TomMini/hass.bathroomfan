@@ -13,7 +13,7 @@ Further I used some stuff laying around the house:
 *	An old USB phone charger
 
 ### Hooking it all up... ###
-The Wemos parts are wired up with the following schematics. De DHT22 sensor has some extra parts on the Wemos PCB that are not shown here but I think it’s nothing more than a pull-up resistor resistor on the data-line. The strange thing in my setup is that my DHT22 sensor is made by ASAIR and for some reason doesn't play nice on the D4-pin it's default wired to. That’s why in my setup it’s connected to D3 and working like a charm.
+The Wemos parts are wired up with the following schematics. De DHT22 sensor has some extra parts on the Wemos PCB that are not shown here but I think it’s nothing more than a pull-up resistor on the data-line. The strange thing in my setup is that my DHT22 sensor is made by ASAIR and for some reason doesn't play nice on the D4-pin it's default wired to. That’s why in my setup it’s connected to D3 and working like a charm.
 ![Wiring](https://github.com/TomMini/hass.bathroomfan/blob/master/assets/Wiring.png)
 The fan itself is stripped from it’s analogue humidity sensor and wired through the NO (normal open) switch of the relay. The old phone charger is hooked up to the mains (make sure it’s properly insulated!) and connected with the micro-USB connector of the Wemos D1 as a power supply.
 
